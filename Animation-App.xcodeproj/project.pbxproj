@@ -14,6 +14,8 @@
 		7F4F246320979D9D004DBAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F246120979D9D004DBAE9 /* LaunchScreen.storyboard */; };
 		7F4F246E20979D9D004DBAE9 /* Animation_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F246D20979D9D004DBAE9 /* Animation_AppTests.swift */; };
 		7F4F247920979D9D004DBAE9 /* Animation_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F247820979D9D004DBAE9 /* Animation_AppUITests.swift */; };
+		7F4F248720979DF0004DBAE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F248620979DF0004DBAE9 /* SecondViewController.swift */; };
+		7F4F248920979E18004DBAE9 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F248820979E18004DBAE9 /* AnimationTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7F4F247420979D9D004DBAE9 /* Animation-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F247820979D9D004DBAE9 /* Animation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_AppUITests.swift; sourceTree = "<group>"; };
 		7F4F247A20979D9D004DBAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4F248620979DF0004DBAE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7F4F248820979E18004DBAE9 /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				7F4F245F20979D9D004DBAE9 /* Assets.xcassets */,
 				7F4F246120979D9D004DBAE9 /* LaunchScreen.storyboard */,
 				7F4F246420979D9D004DBAE9 /* Info.plist */,
+				7F4F248620979DF0004DBAE9 /* SecondViewController.swift */,
+				7F4F248820979E18004DBAE9 /* AnimationTransition.swift */,
 			);
 			path = "Animation-App";
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4F248720979DF0004DBAE9 /* SecondViewController.swift in Sources */,
 				7F4F245B20979D9D004DBAE9 /* ViewController.swift in Sources */,
 				7F4F245920979D9D004DBAE9 /* AppDelegate.swift in Sources */,
+				7F4F248920979E18004DBAE9 /* AnimationTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
